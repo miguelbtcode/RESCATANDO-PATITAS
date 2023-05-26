@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>    
+    <header>
+        <a href="Página_Principal.html" class="logo">
+            <img src="Imágenes/LOGO FINAL.png"  alt="logo de la compañia">
+            <h1 class="logo-nombre">RESCATANDO PATITAS</h1>            
+        </a>
+        <nav>
+            <a href="Página_Principal.html">Inicio</a>
+            <a href="#">Adopta</a>
+            <a href="#">Apóyanos</a>
+        </nav>
+        <br />
+        <br />
+        <br />
+    </header>
+    <section class="container slider">  
+        <div class="slider">
+            <div class="slide">
+                <input type="radio" name="radio_btn" id="r1">
+                <input type="radio" name="radio_btn" id="r2">
+                <input type="radio" name="radio_btn" id="r3">
+
+                <div class="primer sl">
+                    <img src="Imágenes/b1.png" alt="">
+                </div>
+                <div class="sl">
+                    <img src="Imágenes/b2.png" alt="">
+                </div>
+                <div class="sl">
+                    <img src="Imágenes/b3.png" alt="">
+                </div>
+                <div class="nav-auto">
+                    <div class="a-b1"></div>
+                    <div class="a-b2"></div>
+                    <div class="a-b3"></div>
+                </div>
+            </div>
+            <div class="nav-m">
+                <label for="r1" class="m-btn"></label>
+                <label for="r1" class="m-btn"></label>
+                <label for="r1" class="m-btn"></label>
+
+            </div>
+        </div>
+
+
+        
+    </section>
+      <script type="text/javascript">
+        var counter=1;
+        setInterval(function(){
+            document.getElementById('radio' + counter).checked=true;
+            counter++;
+            if(counter>3){
+                counter=1;
+            }
+        },5000);
+      </script>
+    
+    <section class="container sobre nosotros">
+        <h2>¿Quiénes somos?</h2>                 
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla eius eligendi tempore libero quasi eveniet reprehenderit id fugiat sunt corrupti, exercitationem aliquid officiis saepe eaque dolor doloremque et laboriosam labore.
+            </p>    
+    </section>
+    <section class="container de opciones">
+        <div class="opcion1">
+            <h3>ADOPTA</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla eius eligendi tempore libero quasi eveniet reprehenderit id fugiat sunt corrupti, exercitationem aliquid officiis saepe eaque dolor doloremque et laboriosam labore.
+            </p>
+            <a href="#" class="btn-1"><h5>ADOPTA</h5></a>
+        </div>
+        <div class="opcion2">
+            <h3>APÓYANOS</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla eius eligendi tempore libero quasi eveniet reprehenderit id fugiat sunt corrupti, exercitationem aliquid officiis saepe eaque dolor doloremque et laboriosam labore.
+            </p>
+            <a href="#" class="btn-1"><h5>APÓYANOS</h5></a>
+        </div>
+    </section>
+    <section class="container de contacto">
+        <h2>CONTÁCTANOS</h2> 
+        <form>
+            <input class="campo" type="text" placeholder="Nombre">
+            <input class="campo" type="email" placeholder="Correo">
+            <input class="btn-2" type="submit" value="Enviar">
+        </form>        
+    </section>
+    <footer class="container de dudas">
+        <h3>¿Alguna duda?</h3> 
+        <p>Comunícate con nosotros escribiéndonos al correo:
+            <br />
+            <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new" class="enlace correo">rengifobrayan13@gmail.com</a>
+            <br />            
+        </p>
+    </footer>
+
+</body>
+</html>
