@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
 
-
-
 body{
     font-family: 'Heebo', sans-serif;
     margin: 0;   
@@ -43,8 +41,6 @@ nav{
     align-items: center;
     justify-content: space-around;
     margin: auto;
-  
-    
 }
 nav a{    
     text-decoration: none;
@@ -53,10 +49,7 @@ nav a{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin-left: 80px;  
-    
-    
-      
+    margin-left: 80px;
 }
 nav a:after{
     content: "";
@@ -71,7 +64,6 @@ nav a:after{
 }
 nav a:hover{
     color: #000;
-    
 }
 nav a:hover:after{
     width: 6.5%;   
@@ -207,5 +199,4 @@ nav a:hover:after{
 }
 .opcion2 img{
     width: 305px;
-
 }
