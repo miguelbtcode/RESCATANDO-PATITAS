@@ -4,14 +4,14 @@
 
 body{
     font-family: 'Heebo', sans-serif;
-    margin: 0;
+    margin: 0;   
 }
 a{
     text-decoration: none;
     color: #03ab81;
 }
 .container{
-    max-width: 1200px;
+    max-width: 1300px;
     margin: 0 auto;
 }
 header{
@@ -30,6 +30,7 @@ header{
    text-align: center;
    margin-right: 150px;
    margin-top: 25px;
+   
 }
 .logo img {
     height: 70px;
@@ -73,93 +74,138 @@ nav a:hover{
     
 }
 nav a:hover:after{
-    width: 6.5%;
-   
+    width: 6.5%;   
 }
 
-container slider{
+.slider{
+    width: 100%;
+    height: 655px;
+    overflow: hidden;
     margin: 0;
     padding: 0;
-    width: 1519vh;
-    height: 655vh;
+}
+.slider ul{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    animation: cambio 10s infinite alternate linear;
+    width: 260%;
+    margin: 0;
+    padding: 0;
 }
-.slider{
-    width: 1800px;
-    overflow: hidden;
+.slider li{
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
-.slide{
-    width: 500%;
-    height: 500px;
-    display: flex;
-}
-.slide input{
-    display: none;
-}
-.sl{
-    width: 20%;
-    transition: 2s;
-}
-.sl img{
+.slider img{
     width: 1519px;
     height: 655px;
+    margin: 0;
+    padding: 0;
 }
-.nav-m{
-    position: absolute;
-    width: 800px;
-    margin-top: -40px;
-    display: flex;    
+@keyframes cambio{
+    0%{margin-left: 0;}
+    30%{margin-left: 0;}
+
+    35%{margin-left: -100%;}
+    65%{margin-left: -100%;}
+
+    70%{margin-left: -200%;}
+    100%{margin-left: -200%;}
 }
-.m-btn{
-    border: 2px solid #03ab81 ;
-    padding: 5px;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: 1s;
+.nosotros{    
+    padding: 20px;
+    margin-top: 20px;
+    height: 300px;
 }
-.m-btn:not(:last-child){
-    margin-right: 30px;
+.info{
+    width: 550px;    
+    text-align: left;
+    justify-content: left;    
+    float: left;
 }
-.m-btn:hover{
-    background-color: aquamarine;
+.info h2{
+    margin-top: 20px;
+    color: #03ab81;
+    padding-left: 30px;
 }
-#r1:checked~:first{
-    margin-left: 0;
+.info p{
+    margin-top: 30px;
+    padding-left: 30px;
 }
-#r2:checked~:first{
-    margin-left: -20%;
+.foto{
+    justify-content:right;
+    margin-left: 740px;    
+    padding-top: 10px;
 }
-#r3:checked~:first{
-    margin-left: -40%;
+.foto img{
+    width: 420px;
+    height: 280px;   
 }
-.nav-auto{
-    position: absolute;
-    width: 800px;
-    margin-top: 460px;
-    display: flex;
-    justify-content: center;
+.opcion1{
+    background-color: #D1F7F0;
+    width: 620px;  
+    height: 649px;  
+    text-align: left;
+    justify-content: left;
+    margin-top: 15px;    
+    float: left;
+    
 }
-.nav-auto div{
-    border: 2px solid #a5e6d5 ;
-    padding: 5px;
-    border-radius: 10px;
-    transition: 1s;
+.opcion1 h3{
+    text-align: center;
+    font-size: 40px;
+
 }
-.nav-auto div:not(:last-child){
-    margin-right: 30px;
-    justify-content: center;
+.opcion1 p{
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 18px; 
 }
-.nav-checked~ .nav-auto .a-b1{
-    background-color: #a5e6d5;
+.opcion1 button{    
+    margin-left: 270px;
+    margin-top: 20px;
+    background-color: #A2E7D6;
+    width: 100px;
+    height: 35px;
+    border-color: #A2E7D6;
+    font-weight:bold;
 }
-.nav-checked~ .nav-auto .a-b2{
-    background-color: #a5e6d5;
+.opcion1 img{
+    width: 621px;
 }
-.nav-checked~ .nav-auto .a-b3{
-    background-color: #a5e6d5;
+.opcion2{
+    background-color: #D1F7F0;
+    width: 620px;  
+    height: 649px;  
+    text-align: right;
+    justify-content: right;
+    margin-top: 15px;
+    
+    float: right;
 }
-.nav-checked~ .nav-auto .a-b1{
-    background-color: #a5e6d5;
+.opcion2 h3{
+    text-align: center;
+    font-size: 40px;
+
+}
+.opcion2 p{
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 18px;     
+}
+.opcion2 button{    
+    margin-right: 255px;
+    margin-top: 20px;
+    background-color: #A2E7D6;
+    width: 120px;
+    height: 40px;
+    border-color: #A2E7D6;
+    font-weight:bold;
+}
+.opcion2 img{
+    width: 305px;
+
 }
