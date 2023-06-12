@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+
+body{
+    font-family: 'Heebo', sans-serif;
+    margin: 0;   
+}
+a{
+    text-decoration: none;
+    color: #03ab81;
+}
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+header{
+    display: flex; 
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    
+}
+.logo{
+    display: flex;    
+    align-items: center;
+}
+.logo h1{        
+   text-align: center;
+   margin-right: 150px;
+   margin-top: 25px;
+   
+}
+.logo img {
+    height: 70px;
+    align-items: center;
+    margin-right: 450px;
+    margin-left: 2px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+}
+nav a{    
+    text-decoration: none;
+    font-weight: 100;
+    padding-right: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 80px;
+}
+nav a:after{
+    content: "";
+    position: absolute;
+    background-color: #03ab81;
+    height: 3px;
+    width: 0;
+    left: 20;
+    bottom: 675px;
+    transition: 0.3s;
+    justify-content: space-around;
+}
+nav a:hover{
+    color: #000;
+}
+nav a:hover:after{
+    width: 6.5%;   
+}
+
+.slider{
+    width: 100%;
+    height: 655px;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.slider ul{
+    display: flex;
+    animation: cambio 10s infinite alternate linear;
+    width: 260%;
+    margin: 0;
+    padding: 0;
+}
+.slider li{
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.slider img{
+    width: 1519px;
+    height: 655px;
+    margin: 0;
+    padding: 0;
+}
+@keyframes cambio{
+    0%{margin-left: 0;}
+    30%{margin-left: 0;}
+
+    35%{margin-left: -100%;}
+    65%{margin-left: -100%;}
+
+    70%{margin-left: -200%;}
+    100%{margin-left: -200%;}
+}
+.nosotros{    
+    padding: 20px;
+    margin-top: 20px;
+    height: 300px;
+}
+.info{
+    width: 550px;    
+    text-align: left;
+    justify-content: left;    
+    float: left;
+}
+.info h2{
+    margin-top: 20px;
+    color: #03ab81;
+    padding-left: 30px;
+}
+.info p{
+    margin-top: 30px;
+    padding-left: 30px;
+}
+.foto{
+    justify-content:right;
+    margin-left: 740px;    
+    padding-top: 10px;
+}
+.foto img{
+    width: 420px;
+    height: 280px;   
+}
+.opcion1{
+    background-color: #D1F7F0;
+    width: 620px;  
+    height: 649px;  
+    text-align: left;
+    justify-content: left;
+    margin-top: 15px;    
+    float: left;
+    
+}
+.opcion1 h3{
+    text-align: center;
+    font-size: 40px;
+
+}
+.opcion1 p{
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 18px; 
+}
+.opcion1 button{    
+    margin-left: 270px;
+    margin-top: 20px;
+    background-color: #A2E7D6;
+    width: 100px;
+    height: 35px;
+    border-color: #A2E7D6;
+    font-weight:bold;
+}
+.opcion1 img{
+    width: 621px;
+}
+.opcion2{
+    background-color: #D1F7F0;
+    width: 620px;  
+    height: 649px;  
+    text-align: right;
+    justify-content: right;
+    margin-top: 15px;
+    
+    float: right;
+}
+.opcion2 h3{
+    text-align: center;
+    font-size: 40px;
+
+}
+.opcion2 p{
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 18px;     
+}
+.opcion2 button{    
+    margin-right: 255px;
+    margin-top: 20px;
+    background-color: #A2E7D6;
+    width: 120px;
+    height: 40px;
+    border-color: #A2E7D6;
+    font-weight:bold;
+}
+.opcion2 img{
+    width: 305px;
+}
