@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
 
+
+
 body{
     font-family: 'Heebo', sans-serif;
     margin: 0;   
@@ -36,22 +38,27 @@ header{
     margin-right: 450px;
     margin-left: 2px;
 }
-nav{
+.barraSup nav{
     display: flex;
     align-items: center;
     justify-content: space-around;
     margin: auto;
+  
+    
 }
-nav a{    
+.barraSup nav a{    
     text-decoration: none;
     font-weight: 100;
     padding-right: 0px;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin-left: 80px;
+    margin-left: 80px;  
+    
+    
+      
 }
-nav a:after{
+.barraSup nav a:after{
     content: "";
     position: absolute;
     background-color: #03ab81;
@@ -62,16 +69,17 @@ nav a:after{
     transition: 0.3s;
     justify-content: space-around;
 }
-nav a:hover{
+.barraSup nav a:hover{
     color: #000;
+    
 }
-nav a:hover:after{
+.barraSup nav a:hover:after{
     width: 6.5%;   
 }
 
 .slider{
     width: 100%;
-    height: 655px;
+    height: 100%;
     overflow: hidden;
     margin: 0;
     padding: 0;
@@ -79,21 +87,27 @@ nav a:hover:after{
 .slider ul{
     display: flex;
     animation: cambio 10s infinite alternate linear;
-    width: 260%;
+    width: 300%;
+    height: 100%;
     margin: 0;
     padding: 0;
 }
 .slider li{
     width: 100%;
+    height: 100%;
     list-style: none;
     margin: 0;
     padding: 0;
 }
 .slider img{
-    width: 1519px;
-    height: 655px;
-    margin: 0;
-    padding: 0;
+    width: 100%;
+    height: 100%;
+    
+}
+@media(min-width:768px) {
+    .slider img{
+        height: 655px;
+    }
 }
 @keyframes cambio{
     0%{margin-left: 0;}
@@ -199,4 +213,5 @@ nav a:hover:after{
 }
 .opcion2 img{
     width: 305px;
+
 }
