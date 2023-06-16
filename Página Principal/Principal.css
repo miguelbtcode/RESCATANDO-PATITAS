@@ -1,0 +1,466 @@
+body {
+    display: flex;
+    justify-content: center;
+	align-items: flex-start;
+	background-color: black;
+}
+.Encabezado-Conjunto { 
+	background-color:rgba(255, 255, 255, 1);
+	width:1440px;
+	height:1024px;
+	position:absolute;
+}
+.Encabezado { 
+	width:1440px;
+	height:99px;
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+.Encabezado-Texto-Fondo { 
+	box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+	background-color:rgba(3.000000058673322, 171.00000500679016, 129.00000751018524, 1);
+	width:1440px;
+	height:99px;
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+.Encabezado-Texto { 
+	color:rgba(255, 255, 255, 1);
+	width:695px;
+	height:44px;
+	position:absolute;
+	left:372px;
+	top:27px;
+	font-family:Inter;
+	text-align:center;
+	font-size:36px;
+	letter-spacing:0;
+}
+.Encabezado-Home { 
+	width:62px;
+	height:60px;
+	position:absolute;
+	left:28px;
+	top:19px;
+	background-image:url(images/home.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.Cuerpo { 
+	width:1440px;
+	height:925px;
+	position:absolute;
+	left:0px;
+	top:99px;
+}
+.Cuerpo-Bloques { 
+	width:1440px;
+	height:3173px;
+	position:absolute;
+	left:0px;
+	top:47px;
+}
+.Boton-Ejemplos { 
+	width:1440px;
+	height:878px;
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+.Boton-Ejemplo-Conjuntos { 
+	width:429px;
+	height:177px;
+	position:absolute;
+	left:897px;
+	top:16px;
+}
+.Conjunto-Nosotros { 
+	width:198px;
+	height:72px;
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+.Nosotros-Fondo { 
+	background-color:rgba(3.000000058673322, 148.000006377697, 109.00000110268593, 1);
+	width:198px;
+	height:13px;
+	position:absolute;
+	left:0px;
+	top:59px;
+}
+.Nosotros-Texto { 
+	color:rgba(0, 0, 0, 1);
+	width:108px;
+	height:29px;
+	position:absolute;
+	left:44px;
+	top:0px;
+	font-family:Inter;
+	text-align:center;
+	font-size:24px;
+	letter-spacing:0;
+}
+.Conjunto-Adopta { 
+	width:198px;
+	height:72px;
+	position:absolute;
+	left:231px;
+	top:0px;
+}
+.Adopta-Fondo { 
+	background-color:rgba(3.000000058673322, 148.000006377697, 109.00000110268593, 1);
+	width:198px;
+	height:13px;
+	position:absolute;
+	left:0px;
+	top:59px;
+}
+.Adopta-Texto { 
+	color:rgba(0, 0, 0, 1);
+	width:86px;
+	height:29px;
+	position:absolute;
+	left:55px;
+	top:0px;
+	font-family:Inter;
+	text-align:center;
+	font-size:24px;
+	letter-spacing:0;
+}
+.Conjunto-Apoyanos { 
+	width:198px;
+	height:72px;
+	position:absolute;
+	left:0px;
+	top:105px;
+}
+.Apoyanos-Fondo { 
+	background-color:rgba(3.000000058673322, 148.000006377697, 109.00000110268593, 1);
+	width:198px;
+	height:13px;
+	position:absolute;
+	left:0px;
+	top:59px;
+}
+.Apoyanos-Texto { 
+	color:rgba(0, 0, 0, 1);
+	width:119px;
+	height:29px;
+	position:absolute;
+	left:39px;
+	top:0px;
+	font-family:Inter;
+	text-align:center;
+	font-size:24px;
+	letter-spacing:0;
+}
+.Conjunto-Contactanos { 
+	width:198px;
+	height:72px;
+	position:absolute;
+	left:231px;
+	top:105px;
+}
+.Contactanos-Fondo { 
+	background-color:rgba(3.000000058673322, 148.000006377697, 109.00000110268593, 1);
+	width:198px;
+	height:13px;
+	position:absolute;
+	left:0px;
+	top:59px;
+}
+.Contactanos-Texto { 
+	color:rgba(0, 0, 0, 1);
+	width:152px;
+	height:29px;
+	position:absolute;
+	left:22px;
+	top:0px;
+	font-family:Inter;
+	text-align:center;
+	font-size:24px;
+	letter-spacing:0;
+}
+.Cuerpo-Logo { 
+	width:576px;
+	height:210px;
+	position:absolute;
+	left:114px;
+	top:0px;
+	background-image:url(images/logo.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.Cuerpo-Banner { 
+	width:1440px;
+	height:621px;
+	position:absolute;
+	left:0px;
+	top:257px;
+	background-image:url(images/banner.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.Bloque-01 { 
+	width:1440px;
+	height:722px;
+	position:absolute;
+	left:0px;
+	top:878px;
+}
+.B01-Fondo { 
+	background-color:rgba(162.00000554323196, 231.00000143051147, 214.00000244379044, 1);
+	width:1440px;
+	height:722px;
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+.B01-Texto { 
+	color:rgba(0, 0, 0, 1);
+	width:313px;
+	height:44px;
+	position:absolute;
+	left:36px;
+	top:37px;
+	font-family:Inter;
+	text-align:left;
+	font-size:36px;
+	letter-spacing:0;
+}
+.B01-Parrafo { 
+	color:rgba(0, 0, 0, 1);
+	width:783px;
+	height:576px;
+	position:absolute;
+	left:36px;
+	top:112px;
+	font-family:Inter;
+	text-align:left;
+	font-size:36px;
+	letter-spacing:0;
+}
+.B01-Imagen { 
+	width:447px;
+	height:355px;
+	position:absolute;
+	left:891px;
+	top:168px;
+	background-image:url(images/nosotros.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.Bloque-02 { 
+	width:1440px;
+	height:558px;
+	position:absolute;
+	left:0px;
+	top:1600px;
+}
+.B02-Fondo { 
+	background-color:rgba(209.00000274181366, 247.00000047683716, 240.00000089406967, 1);
+	width:1440px;
+	height:558px;
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+.B02-Texto { 
+	color:rgba(0, 0, 0, 1);
+	width:316px;
+	height:44px;
+	position:absolute;
+	left:1085px;
+	top:37px;
+	font-family:Inter;
+	text-align:right;
+	font-size:36px;
+	letter-spacing:0;
+}
+.B02-Parrafo { 
+	color:rgba(0, 0, 0, 1);
+	width:783px;
+	height:272px;
+	position:absolute;
+	left:618px;
+	top:112px;
+	font-family:Inter;
+	text-align:right;
+	font-size:36px;
+	letter-spacing:0;
+}
+.B02-Imagen { 
+	width:618px;
+	height:330px;
+	position:absolute;
+	left:36px;
+	top:228px;
+	background-image:url(images/adoptanos.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.B02-Boton { 
+	width:446px;
+	height:77px;
+	position:absolute;
+	left:837px;
+	top:424px;
+}
+.B02-Boton-Fondo { 
+	box-shadow:0px 4px 40px rgba(0, 0, 0, 0.25);
+	background-color:rgba(3.000000058673322, 171.00000500679016, 129.00000751018524, 1);
+	width:446px;
+	height:77px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	border-top-left-radius:41px;
+	border-top-right-radius:41px;
+	border-bottom-left-radius:41px;
+	border-bottom-right-radius:41px;
+}
+.B02-Boton-Texto { 
+	color:rgba(255, 255, 255, 1);
+	width:128px;
+	height:39px;
+	position:absolute;
+	left:159px;
+	top:19px;
+	font-family:Inter;
+	text-align:center;
+	font-size:32px;
+	letter-spacing:0;
+}
+.Bloque-03 { 
+	width:1440px;
+	height:558px;
+	position:absolute;
+	left:0px;
+	top:2158px;
+}
+.B03-Fondo { 
+	background-color:rgba(162.00000554323196, 231.00000143051147, 214.00000244379044, 1);
+	width:1440px;
+	height:558px;
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+.B03-Texto { 
+	color:rgba(0, 0, 0, 1);
+	width:178px;
+	height:44px;
+	position:absolute;
+	left:36px;
+	top:37px;
+	font-family:Inter;
+	text-align:left;
+	font-size:36px;
+	letter-spacing:0;
+}
+.B03-Parrafo { 
+	color:rgba(0, 0, 0, 1);
+	width:1014px;
+	height:275px;
+	position:absolute;
+	left:36px;
+	top:112px;
+	font-family:Inter;
+	text-align:left;
+	font-size:36px;
+	letter-spacing:0;
+}
+.B03-Imagen { 
+	width:366px;
+	height:367px;
+	position:absolute;
+	left:1060px;
+	top:147px;
+	background-image:url(images/apoyanos.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.B03-Boton { 
+	width:446px;
+	height:77px;
+	position:absolute;
+	left:337px;
+	top:414px;
+}
+.B03-Boton-Fondo { 
+	box-shadow:0px 4px 40px rgba(0, 0, 0, 0.25);
+	background-color:rgba(3.000000058673322, 171.00000500679016, 129.00000751018524, 1);
+	width:446px;
+	height:77px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	border-top-left-radius:41px;
+	border-top-right-radius:41px;
+	border-bottom-left-radius:41px;
+	border-bottom-right-radius:41px;
+}
+.B03-Boton-Texto { 
+	color:rgba(255, 255, 255, 1);
+	width:114px;
+	height:39px;
+	position:absolute;
+	left:166px;
+	top:19px;
+	font-family:Inter;
+	text-align:center;
+	font-size:32px;
+	letter-spacing:0;
+}
+.Bloque-04 { 
+	width:1440px;
+	height:457px;
+	position:absolute;
+	left:0px;
+	top:2716px;
+}
+.B04-Fondo { 
+	background-color:rgba(3.000000058673322, 171.00000500679016, 129.00000751018524, 1);
+	width:1440px;
+	height:457px;
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+.B04-Logo { 
+	width:322px;
+	height:322px;
+	position:absolute;
+	left:1016px;
+	top:68px;
+	background-image:url(images/logo_inferior.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.B04-Texto { 
+	color:rgba(255, 255, 255, 1);
+	width:228px;
+	height:44px;
+	position:absolute;
+	left:36px;
+	top:44px;
+	font-family:Inter;
+	text-align:left;
+	font-size:36px;
+	letter-spacing:0;
+}
+.B04-Parrafo { 
+	color:rgba(255, 255, 255, 1);
+	width:1014px;
+	height:275px;
+	position:absolute;
+	left:101px;
+	top:119px;
+	font-family:Inter;
+	text-align:left;
+	font-size:36px;
+	letter-spacing:0;
+}
