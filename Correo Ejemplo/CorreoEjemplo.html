@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="initial-scale=1.0">
+    <title>Sistema de correo - Ejemplo</title>
+    <script src = "CorreoEjemplo.js" type = "text/javascript"></script>
+</head>
+<body>
+    <div class="Prototipo de correo">
+        <h1>CONTÁCTANOS</h1>
+        <h2>Asunto:</h2>
+        <input type="text" id = "txtAsunto" name="txtAsunto" placeholder="Asunto">
+        <h2>Destinatario:</h2>
+        <input type="text" id = "txtCorreo" name="txtCorreo" placeholder="Correo">
+        <h2>Mensaje:</h2>
+        <textarea id = "txtArMensaje" name = "txtArMensaje" rows = "6" cols = "50" maxlength = "300" placeholder = "Mensaje"></textarea>
+        <input type="text" id = "ctMensaje" name = "ctMensaje" readonly>
+        <button type="submit" name="btnEnviar" onclick = ValidarCorreo()>Enviar</button>
+    </div>
+</body>
