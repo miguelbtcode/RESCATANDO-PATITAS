@@ -1,13 +1,11 @@
 //  Obtener el elemento HTML
-let asunto = document.getElementById('txtAsunto');
+let persona = document.getElementById('txtPersona');
 let correo = document.getElementById('txtCorreo');
-let mensaje = document.getElementById('txtArMensaje');
-let contador = document.getElementById('ctMensaje');
 
 function ValidarCorreo()
 {
     //  Validar texto en Asunto
-    if (asunto.value.length <= 0)
+    if (persona.value.length <= 0)
     {
         alert("Ingresar asunto a enviar.");
         return false;
@@ -24,49 +22,28 @@ function ValidarCorreo()
         alert("Ingresar un correo válido.")
         return false;
     }
-    //  Validar texto en Mensaje (0 a 300 caracteres)
-    else if (mensaje.value.length <= 0)
-    {
-        alert("Ingresar mensaje a enviar.");
-        return false;
-    }
-    else if (300 < mensaje.value.length)
-    {
-        alert("Ingresar mensaje menor o igual a 300 caracteres.");
-        return false;
-    }
     return true;
-}
-
-//  Contar caracteres del mensaje
-function ContadorDeMensaje()
-{
-    var contadorFinal = "";
-    //  Contador de mensaje
-    contadorFinal += mensaje.value.length;
-    //  Límite
-    contadorFinal += "/300";
-    //  Resultado
-    contador.value = contadorFinal;
 }
 
 function EnviarGmail()
 {
+    //  Comprobar validez de correo
     if (ValidarCorreo())
     {
-        var mailTo = "mailto:";
+        //  Enlace para abrir Gmail
+        var mailTo = "https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=";
         //  Añadir correo destinatario
-        mailTo += correo.value;
+        mailTo += "mauriojedagb47@gmail.com";
         //  Añadir asunto
-        mailTo += "?subject=";
-        mailTo += asunto.value;
+        mailTo += "&su=";
+        mailTo += "RESCATANDO PATITAS - Atención de duda a cliente";
         //  Añadir cuerpo
         mailTo += "&body=";
-        mailTo += mensaje.value;
+        mailTo += "Solicitud a pedido de ";
+        mailTo += persona.value;
+        mailTo += " con el siguiente correo: ";
+        mailTo += correo.value;
+        mailTo += ". Puede detallar su consulta luego de este texto:"
         window.location.href = mailTo;
     }
 }
-
-//  Actualizar contador al colocar mensaje
-mensaje.addEventListener('keypress', ContadorDeMensaje);
-mensaje.addEventListener('keyup', ContadorDeMensaje);
