@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,47 +8,60 @@
     <title>RESCATANDO PATITAS</title>
     <link rel="stylesheet" href="CSS/fontello.css">
     <link rel="stylesheet" href="CSS/style.css">
-    <link rel="icon" href="Imágenes/LOGO FINAL.png" >
+    <link rel="icon" href="Imágenes/LOGO FINAL.png">
+    <script src="index.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("4DXvyFO1JtabgNJiX");
+        })();
+    </script>
 </head>
-<body>    
+
+<body>
     <header>
-        <div class="barraSup">            
-                <a href="Página_Principal.html"><img src="Imágenes/LOGO FINAL.png"  alt="logo de la compañia"></a>
-                <h1 class="logo-nombre"><a href="Página_Principal.html">RESCATANDO PATITAS</a></h1>          
-                <input type="checkbox" id="menu-bar">
-                <label class="icon-menu" for="menu-bar"></label>
+        <div class="barraSup">
+            <a href="Página_Principal.html"><img src="Imágenes/LOGO FINAL.png" alt="logo de la compañia"></a>
+            <h1 class="logo-nombre"><a href="Página_Principal.html">RESCATANDO PATITAS</a></h1>
+            <input type="checkbox" id="menu-bar">
+            <label class="icon-menu" for="menu-bar"></label>
             <nav class="menu">
                 <a href="Página_Principal.html">Inicio</a>
                 <a href="Adopta.html">Adopta</a>
                 <a href="Apóyanos.html">Apóyanos</a>
-             </nav>
+            </nav>
         </div>
         <br />
         <br />
         <br />
     </header>
-    <div class="slider">  
+    <div class="slider">
         <ul>
             <li>
-                <img src="Imágenes/b1.png"  alt="logo de la compañia">
+                <img src="Imágenes/b1.png" alt="logo de la compañia">
             </li>
             <li>
-                <img src="Imágenes/b2.png"  alt="logo de la compañia">
+                <img src="Imágenes/b2.png" alt="logo de la compañia">
             </li>
             <li>
-                <img src="Imágenes/b3.png"  alt="logo de la compañia">
+                <img src="Imágenes/b3.png" alt="logo de la compañia">
             </li>
-        </ul>        
+        </ul>
     </div>
 
     <main>
         <div class="contNos">
             <div class="Nosotros">
                 <div class="info">
-                    <h2>¿Quiénes somos?</h2>                 
-                    <p>Somos estudiantes de séptimo ciclo de la Universidad Privada del Norte de la facultad de Ingeniería de Sistemas Computacionales. 
-                        Como amantes de los animales, nuestro proyecto se basa en fomentar el rescate y la adopción responsable de mascotas (perros y gatos) que en algún momento fueron abandonados o crecieron en las calles sin tener un hogar. Por ello, trabajamos con la información de distintos albergues  en la zona norte para poder dar conocimiento de las mascotas que fueron rescatadas y están en adopción.
-                    </p> 
+                    <h2>¿Quiénes somos?</h2>
+                    <p>Somos estudiantes de séptimo ciclo de la Universidad Privada del Norte de la facultad de
+                        Ingeniería de Sistemas Computacionales.
+                        Como amantes de los animales, nuestro proyecto se basa en fomentar el rescate y la adopción
+                        responsable de mascotas (perros y gatos) que en algún momento fueron abandonados o crecieron en
+                        las calles sin tener un hogar. Por ello, trabajamos con la información de distintos albergues en
+                        la zona norte para poder dar conocimiento de las mascotas que fueron rescatadas y
+                        están en adopción.
+                    </p>
                 </div>
                 <div class="foto">
                     <img src="Imágenes/nosotros2.jpg" alt="">
@@ -57,24 +71,29 @@
     </main>
 
 
-<main>
+    <main>
         <section id="Opciones">
             <div class="contOpc">
                 <div class="opcion1">
                     <h3>¿Buscas adoptar?</h3>
-                    <p>¡Estás en el lugar correcto! Te brindaremos varias opciones de albergues que ayudan a perritos y gatitos que se rescataron de las calles, ahora se encuentran en la espera de un hogar que los llene de amor a lo largo de su vida.
-                    </p>  
+                    <p>¡Estás en el lugar correcto! Te brindaremos varias opciones de albergues que ayudan a perritos y
+                        gatitos que se rescataron de las calles, ahora se encuentran en la espera de un hogar que los
+                        llene de amor a lo largo de su vida.
+                    </p>
                     <a href="Adopta.html"><button>ADOPTA</button> </a>
                     <img src="Imágenes/adopta.png" alt="">
-        
+
                 </div>
                 <div class="opcion2">
                     <h3>Apóyanos</h3>
-                    <p>Sabemos que no puedes adoptar pero quieres ayudarnos, pensando en ti decidimos agregar esta opción en la cual podrás ayudar de manera económica a distintos albergues para que más perritos y gatitos puedan alimentarse, recibir tratamiento y tener mayor comodidad en la espera de una nueva familia.  
+                    <p>Sabemos que no puedes adoptar pero quieres ayudarnos, pensando en ti decidimos agregar esta
+                        opción en la cual podrás ayudar de manera económica a distintos albergues para que más perritos
+                        y gatitos puedan alimentarse, recibir tratamiento y tener mayor comodidad en la espera de una
+                        nueva familia.
                     </p>
                     <a href="Apóyanos.html"><button>APÓYANOS</button></a>
                     <img src="Imágenes/apoyo.png" alt="">
-        
+
                 </div>
             </div>
         </section>
@@ -82,31 +101,21 @@
         <div class="footer">
             <div class="contacto">
                 <h2>CONTÁCTANOS</h2>
-                <input type="text" name="nombre" placeholder="Nombre">
-                <input type="text" name="Correo" placeholder="Correo">
-                <input type="submit" name="Enviar">
+
+                <input type="text" id="name" name="name" placeholder="Nombre" required>
+                <input type="email" id="email" name="email" placeholder="Correo" required>
+                <button type="submit" onclick="sendMail();">Enviar</button>
             </div>
+
             <div class="dudas">
                 <h3>¿Alguna duda?</h3>
                 <p>Comunícate con nosotros, escríbenos al correo: </p>
-                <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=GTvVlcSKjDXgCmHfplGCjlHqLfszRzhSChPXmNWMkFMCFWDQMRSrwhnZJMpMKWhGZnMqgkRbDvwQZ" target="_blank">mauriojedagb47@gmail.com</a>
+                <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=GTvVlcSKjDXgCmHfplGCjlHqLfszRzhSChPXmNWMkFMCFWDQMRSrwhnZJMpMKWhGZnMqgkRbDvwQZ"
+                    target="_blank">mauriojedagb47@gmail.com</a>
             </div>
         </div>
-            
-        
-        
-        
-        
-    </div>
     </main>
-      
-    
-        
-        
-    
-
-    
-    
 
 </body>
+
 </html>
